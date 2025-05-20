@@ -1,0 +1,175 @@
+/* Reset cơ bản */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Kiểu cho body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #E0F7FA;
+    color: #333;
+}
+
+/* Header */
+header {
+    background: #4FC3F7;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header .logo img {
+    width: 100px;
+}
+
+/* Navigation Bar */
+.navbar {
+    background: #29B6F6;
+    padding: 10px 0;
+}
+
+.navbar .menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar .menu li {
+    margin: 0 15px;
+}
+
+.navbar .menu li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    transition: background 0.3s;
+}
+
+.navbar .menu li a:hover {
+    background: #039BE5;
+    border-radius: 50px;
+}
+
+/* Container Layout */
+.container {
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 25%;
+    background: #B3E5FC;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.sidebar h2 {
+    margin-bottom: 10px;
+    color: #0277BD;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #01579B;
+    transition: color 0.3s;
+}
+
+.sidebar ul li a:hover {
+    color: #0288D1;
+}
+
+/* Nội dung chính */
+.content {
+    flex: 1;
+    background: #B3E5FC;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.main-container {
+    text-align: center;
+}
+
+.main-text h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: #0277BD;
+}
+
+/* Danh mục thời trang */
+.fashion-list-container {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.fashion-list {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+}
+
+.fashion-list li {
+    padding: 8px 12px;
+    background: #E1F5FE;
+    border-radius: 3px;
+    transition: background 0.3s;
+}
+
+.fashion-list li a {
+    text-decoration: none;
+    color: #01579B;
+}
+
+.fashion-list li:hover {
+    background: #B3E5FC;
+}
+
+.main-text p {
+    margin-bottom: 20px;
+}
+
+/* Button */
+.btn {
+    padding: 10px 20px;
+    background: #039BE5;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: #0288D1;
+}
+
+/* Footer */
+.footer {
+    background: #4FC3F7;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+.footer .social-icons a {
+    margin: 0 10px;
+}
+
+.footer .social-icons img {
+    width: 30px;
+}
